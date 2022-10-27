@@ -31,14 +31,20 @@ div.links {
     justify-content: flex-end;
 }
 
-div.links>a {
+div.links>a:link,
+a:visited {
     font-family: 'Roboto', serif;
     font-size: 14px;
     text-align: center;
     padding: 2px 10px;
     margin: 0 5px;
-    border: 1px solid;
-    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+
+}
+
+div.links>a:hover {
+    text-decoration: underline;
 
 }
 
