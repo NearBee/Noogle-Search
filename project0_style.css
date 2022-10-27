@@ -105,14 +105,13 @@ div.input-box:hover {
 }
 
 .searchButton {
-    width: 37px;
-    min-width: 37px;
+    width: 35px;
+    min-width: 35px;
     height: 2.3125rem;
-    padding-top: 0.625rem;
     border: 0.0625rem solid lightgray;
-    background: transparent;
-    text-align: center;
-    color: #fff;
+    background: lightgray;
+    text-align: right;
+    color: white;
     border-radius: 1.5rem;
     cursor: pointer;
     font-size: 1.25rem;
