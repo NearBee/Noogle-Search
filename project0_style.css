@@ -127,7 +127,7 @@ div.input-box:hover {
     box-shadow: 0 0 3px;
 }
 
-.fa-images:hover {
+.fa:active {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
