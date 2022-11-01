@@ -14,7 +14,6 @@ Clicking "**Advanced Search**" at the top-right of the screen will bring you to 
 - "This exact word or phrase"
 - "Any of these words"
 - "None of these words"
-- "Numbers ranging from __ to __" _**etc.**_
 
 
 This is all meant to be a recreation of Google's front-end for their search engine but not claiming to be anything more than a recreating.
