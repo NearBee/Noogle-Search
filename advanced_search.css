@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding-bottom: 20px;
     border-bottom: .5px solid lightgray;
+    margin-bottom: 35px;
 }
 
 .links {
@@ -63,14 +64,15 @@ a:visited {
 
 .wrap {
     height: 25%;
+    max-width: 818px;
     display: flex;
     align-items: center;
 }
 
 .buttonWrap {
-    width: 818px;
-    display: block;
-    text-align: right;
+    display: flex;
+    justify-content: right;
+    ;
 }
 
 .searchButton {
@@ -83,20 +85,35 @@ a:visited {
     border-radius: 2px;
     height: 30px;
     padding: 0 12px;
-    margin: 10px auto;
+    /*margin: 10px auto;*/
 }
 
 form {
-    width: 100%;
+    max-width: 818px;
+    min-width: 200px;
 }
 
-label {
+.description {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    max-width: 818px;
+    min-width: 200px;
+    height: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.wrap>label {
     margin-right: 25px;
-    width: 15%;
+    min-width: 175px;
 }
 
 input {
-    width: 50%;
+    min-width: 300px;
+    max-width: 818px;
+    width: 100%;
     height: 20px;
     border: .5px solid lightgray;
 }
