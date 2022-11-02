@@ -62,14 +62,15 @@ a:visited {
 }
 
 .wrap {
-    height: 50%;
+    height: 25%;
     display: flex;
+    align-items: center;
 }
 
 .searchButton {
     font-family: "Roboto", serif;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 500;
     background-color: #357ae8;
     color: white;
     border: 1px solid #3079ed;
@@ -77,4 +78,23 @@ a:visited {
     height: 30px;
     padding: 0 12px;
     margin: 10px 0;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    margin-right: 25px;
+    width: 15%;
+}
+
+input {
+    width: 50%;
+    height: 20px;
+    border: .5px solid lightgray;
+}
+
+input:focus {
+    outline: .5px solid blue;
 }
